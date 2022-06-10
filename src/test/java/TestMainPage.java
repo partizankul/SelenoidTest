@@ -19,6 +19,11 @@ public class TestMainPage {
         mainPage= new MainPage(Driver.getDriver());
     }
     @Test
+    public void openSIteTest() {
+        Driver.getDriver().get("https://github.com/");
+    }
+
+    @Test
     public void clickToLogo() {
         mainPage.clickLogo();
         Assert.assertEquals("https://github.com/", js.executeScript("return document.URL;").toString());

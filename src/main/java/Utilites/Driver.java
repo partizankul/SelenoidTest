@@ -1,6 +1,9 @@
 package Utilites;
 
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -9,7 +12,7 @@ import java.net.URI;
 import java.util.Map;
 
 public class Driver {
-    private static WebDriver driver;
+    private static RemoteWebDriver driver;
 
     private Driver(){}
 
@@ -18,12 +21,15 @@ public class Driver {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("browserName", "chrome");
             capabilities.setCapability("browserVersion", "101.0");
+     //       ChromeOptions options = new ChromeOptions();
+      //     options.addArguments("start-maximized");
+      //      capabilities.setCapability(ChromeOptions.CAPABILITY, options);
             capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                     "enableVNC", true,
                     "enableVideo", false
             ));
             try {
-                RemoteWebDriver driver = new RemoteWebDriver(
+                driver = new RemoteWebDriver(
                         URI.create("http://127.0.0.1:4444/wd/hub").toURL(),
                         capabilities
                 ); return driver;
@@ -32,10 +38,4 @@ public class Driver {
             }
         }return driver;
     }
-
-    public static void close(){
-        driver.close();
-        driver=null;
-    }
-
 }

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-17T19:47:45Z" name="Surefire suite" finished-at="2022-06-17T19:48:10Z" duration-ms="24594">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T19:47:45Z" name="Surefire test" finished-at="2022-06-17T19:48:10Z" duration-ms="24594">
+      <class name="TestMainPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestMainPage@19a31b9d]" started-at="2022-06-17T19:47:50Z" name="setUp" finished-at="2022-06-17T19:47:51Z" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickSignInButton()[pri:0, instance:TestMainPage@19a31b9d]" started-at="2022-06-17T19:47:51Z" name="clickSignInButton" finished-at="2022-06-17T19:47:57Z" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignInButton -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestMainPage@19a31b9d]" started-at="2022-06-17T19:47:57Z" name="setUp" finished-at="2022-06-17T19:47:57Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickSignUpButton()[pri:0, instance:TestMainPage@19a31b9d]" started-at="2022-06-17T19:47:57Z" name="clickSignUpButton" finished-at="2022-06-17T19:48:04Z" duration-ms="7235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignUpButton -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestMainPage@19a31b9d]" started-at="2022-06-17T19:48:04Z" name="setUp" finished-at="2022-06-17T19:48:05Z" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickToLogo()[pri:0, instance:TestMainPage@19a31b9d]" started-at="2022-06-17T19:48:05Z" name="clickToLogo" finished-at="2022-06-17T19:48:10Z" duration-ms="4822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToLogo -->
+      </class> <!-- TestMainPage -->
+      <class name="LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@708f018e]" started-at="2022-06-17T19:47:45Z" name="setUp" finished-at="2022-06-17T19:47:46Z" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickToCreatLink()[pri:0, instance:LoginPageTest@708f018e]" started-at="2022-06-17T19:47:46Z" name="clickToCreatLink" finished-at="2022-06-17T19:47:48Z" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToCreatLink -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@708f018e]" started-at="2022-06-17T19:47:48Z" name="setUp" finished-at="2022-06-17T19:47:48Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickToLogo()[pri:0, instance:LoginPageTest@708f018e]" started-at="2022-06-17T19:47:48Z" name="clickToLogo" finished-at="2022-06-17T19:47:48Z" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToLogo -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@708f018e]" started-at="2022-06-17T19:47:48Z" name="setUp" finished-at="2022-06-17T19:47:49Z" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:LoginPageTest@708f018e]" started-at="2022-06-17T19:47:49Z" name="loginTest" finished-at="2022-06-17T19:47:50Z" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
